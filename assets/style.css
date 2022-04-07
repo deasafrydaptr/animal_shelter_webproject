@@ -1,0 +1,229 @@
+/* Import font-family from Google font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&family=Roboto+Condensed&display=swap');
+@media screen and (max-width: 1000px) {
+    #content,#profil{
+        width: 100%;
+        padding: 0;
+    }
+    .con-col {
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed',sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(145deg, rgba(249,237,105,0.9612219887955182) 0%,
+    rgba(240,138,93,0.8323704481792717) 40%, rgba(184,59,94,0.6474964985994398) 100%);
+}
+
+header {
+    display: inline;
+}
+
+.jumbotron{
+    font-size: 35px;
+    padding: 40px;
+    color: #F08A5D;
+    background-image: url("Images/hekawan.jpg");
+    background-size: cover;
+}
+
+p {
+    margin: 10px 5px 10px 5px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+    text-shadow: 1px 1px 1px black;
+    margin: 100px 0px 0px 0px;
+}
+
+q {
+    text-shadow: 1px 1px 1px black;
+    font-size: 20px;
+    font-style: oblique;
+    font-size: x-large;
+}
+
+nav {
+    background-color: #F9ED69;
+    padding: 1px 5px 1px 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #F08A5D;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+nav a:hover{
+    text-shadow: 0.5px 0.5px 0.5px #e88a61;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+h2, h3{
+    color: #F08A5D;
+    margin: 3px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #F9ED69;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: white;
+    margin: 15px 5px 0px 5px;
+    text-align: center;
+}
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+.container{
+    display: flex;
+    max-width: 100%;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: right;
+    flex-direction: column;
+}
+
+.con-col{
+    display: flex;
+    width: 100%;
+    flex-basis: 50%;
+    max-height: fit-content;
+    padding: 5px;
+}
+
+.con-row{
+    flex-basis: 33%;
+    width: 100%;
+    max-height: fit-content;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 4px solid #F08A5D;
+    background:#F9ED69;
+    cursor: pointer;
+}
+
+.con-row p {
+    width: fit-content;
+    text-align: left;
+    font-size: 16px;
+    color: #F08A5D;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 5px 0px 5px 3px;
+    margin: auto;
+}
+
+.con-row q {
+    color: black;
+    text-shadow: none;
+    font-size: 20px;
+}
+
+.con-row:hover {
+    box-shadow: 2px 2px 4px black;
+    background-color: #f3eb8d;
+}
+
+table{
+    text-align:left;    
+    padding: 8px 10px 8px 10px;
+    margin: auto;
+}
+
+/* CSS Images */
+img {
+    width: 100%;
+    object-position: center;
+    object-fit: contain;
+    padding: 10px;
+}
+.animalspic{
+    max-height: 300px;
+}
+#aboutUs img{
+    max-height: 400px;
+    object-fit: cover;
+}
+#donate img{
+    max-height: 306px;
+}
+.profile img {
+    max-height: 156px;
+    padding-top: 5px;
+}
+
+#aboutUs p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 5px 10px 0px 10px;
+}
+
+strong {
+    font-style: oblique;
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: #F08A5D;
+    color: #F9ED69;
+    font-weight: bolder;
+    border-radius: 8px;
+    border-color: #F9ED69;
+    padding: 10px;
+    margin: 5px;
+    object-position: center;
+}
+
+button:hover {
+    box-shadow: 2px 2px 3px black;
+    background-color: #faa17b;    
+}
+
+footer{
+    padding: 10px;
+    color: #F08A5D;
+    background-color: #F9ED69;
+    text-align: center;
+    font-weight: bold;
+}
